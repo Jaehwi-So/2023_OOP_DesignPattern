@@ -17,17 +17,9 @@ public class MyStack<E> implements Iterable<E>  {
         this.list.remove(index);
         return element;
     }
-    public boolean isEmpty(){
-        if(this.list.isEmpty()){
-            return true;
-        }
-        else{
-            return false;
-        }
-    }
+    @Override
     public Iterator<E> iterator(){
         return new MyStackIterator<E>(this.list);
     }
-
 
 }
