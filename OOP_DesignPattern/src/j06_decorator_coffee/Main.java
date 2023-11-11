@@ -1,5 +1,10 @@
 package j06_decorator_coffee;
 
+import j06_decorator_coffee.component.BevarageDarkRoast;
+import j06_decorator_coffee.component.Beverage;
+import j06_decorator_coffee.decorator.MochaDecorator;
+import j06_decorator_coffee.decorator.WhipDecorator;
+
 public class Main {
     public static void main(String[] args){
         Beverage b = new BevarageDarkRoast();

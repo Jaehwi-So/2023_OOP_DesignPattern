@@ -1,5 +1,7 @@
 package j04_observer_pattern;
 
+import j04_observer_pattern.subject.PollutionSubject;
+
 public class AirPollutionPublisher implements Runnable {
     private int pollution = 50;
     private boolean stop = false;

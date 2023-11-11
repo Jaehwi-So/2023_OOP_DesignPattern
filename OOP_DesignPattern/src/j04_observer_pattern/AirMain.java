@@ -1,6 +1,9 @@
 package j04_observer_pattern;
 
 
+import j04_observer_pattern.observer.AirPollutionSubscriber;
+import j04_observer_pattern.subject.PollutionSubject;
+
 class AirMain {
 
     public static void main(String[] args) {

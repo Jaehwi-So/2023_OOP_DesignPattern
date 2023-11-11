@@ -5,7 +5,7 @@ import java.util.Date;
 import java.text.SimpleDateFormat;
 
 public class Main {
-    String[] names = { "CompareModifiedDate", "CompareFileType", "CompareFileName", "Main", "CompareSize"  };
+    String[] names = { "CompareModifiedDate", "CompareFileType", "CompareFileName", "j09_adapter_facade.Main", "CompareSize"  };
     String[] types = { "java", "java", "class", "java", "Class" };
     int[] sizes = { 120, 80, 150, 85, 100 };
     String[] dateStrings = { "2022-09-13T21:59:00", "2022-09-12T21:59:00",
