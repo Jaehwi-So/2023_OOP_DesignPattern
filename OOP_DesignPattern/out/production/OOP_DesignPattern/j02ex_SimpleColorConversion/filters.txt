@@ -1,6 +1,0 @@
-s_
-SepiaColorConverter
-g_
-GreyColorConverter
-i_
-InverseColorConverter
